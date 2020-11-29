@@ -51,4 +51,8 @@
     border-radius: 10px;
     letter-spacing: 2px;
     color: rgb(110, 57, 32);
+    transition: all .5s ease-out;
+}
+.title:hover{
+    color: white;
 }
