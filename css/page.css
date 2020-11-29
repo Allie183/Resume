@@ -1,3 +1,93 @@
+.a
+{
+    position: absolute;
+	left: 12.5%;
+    top: 3%;
+    bottom: 65%;
+    width: 75%;
+    background-color: rgba(214, 169, 118, 0.8);
+    border-radius: 20px;
+    float: left;
+}
+.me{
+    width: 18%;
+	position: absolute;
+    top: 6%;
+    left: 5%;
+	display: block;
+	margin: auto;
+    transition: all .15s ease-out;
+    transform:scale(1,1);
+    opacity: 1.0;
+	
+}
+.me:hover{
+    opacity: 1.0;
+	transform:scale(1.1,1.1);
+}
 .name{
-    
+    text-align: left;
+    font-size: 50px;
+    color:rgb(110, 57, 32);
+	position: relative;
+    top: 15%;
+    left: 30%;
+    transition: all.8s ease-out;
+}
+.name:hover{
+
+    transform: rotate3d(90edg);
+
+}
+.ename{
+    text-align: left;
+	font-size: 15px;
+	position: relative;
+    top: 13%;
+    left: 33%;
+	color: antiquewhite;
+	font-weight: bold;
+}
+.birth{
+    text-align: justify;
+	font-size: 20px;
+	position: relative;
+    top: 15%;
+    left: 32%;
+	color: sienna;
+	font-weight: bold;
+}
+.add{
+    text-align: justify;
+	font-size: 20px;
+	position: relative;
+    top: 15%;
+    left: 30%;
+	color: sienna;
+	font-weight: bold;
+}
+.level{
+    text-align: left;
+	font-size: 20px;
+	position: relative;
+    top: 20%;
+    left: 28%;
+	color:black;
+	font-weight: bold;
+}
+.b
+{
+	display: inline;
+	position: relative;
+    left: 55%;
+	bottom: 2.5cm;
+}
+.b img
+{
+	transform:scale(1,1);
+	transition: all 1s ease-out;	
+}
+.b img:hover
+{
+	transform:scale(1.2,1.2);
 }
