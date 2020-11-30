@@ -1,6 +1,11 @@
+body{
+    overflow-x: hidden;
+    background-attachment: fixed;
+    
+}
 .a
 {
-    position: absolute;
+    position: absolute;;
 	left: 12.5%;
     top: 3%;
     bottom: 65%;
@@ -101,7 +106,7 @@
     color: rgb(110, 57, 32);
     font-size: 25px;
     position: relative;
-    top: 20%;
+    top: 1cm;
     left: 55%;
     transition: all.8s ease-out;
 }
@@ -254,10 +259,10 @@
 }
 
 .arrow{
-    width: 50%;
+    width: 28%;
     position: absolute;
-    top: 10%;
-    left: 110%;
+    top: 7.5cm;
+    left: 90%;
     transition: all 1s ease-out;
 }
 .arrow:hover{
@@ -266,13 +271,106 @@
 }
 
 .arrow2{
-    width: 70%;
+    width: 28%;
     position: absolute;
-    top: 10%;
-    left: -85%;
+    top: 14cm;
+    left: 45%;
     transition: all 1s ease-out;
 }
 .arrow2:hover{
     transform:scale(1.2,1.2);
 
 }
+.d{
+    width: 1200px;
+    height: auto;
+    position: absolute;
+	left: 12.5%;
+    top: 20%;
+    bottom: 65%;
+    width: 75%;
+    border-radius: 20px;
+    float: left;
+    transition: .8s ease-out;
+}
+.title3{
+    position: absolute;
+    top:20cm;
+    left: -15%;
+    font-size: 30px;
+    padding: 10px;
+    border: 5px solid seashell;
+    border-style: dashed;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: rgb(110, 57, 32);
+    transition: all .5s ease-out;
+}
+.title3:hover{
+    color: white;
+    transform: rotate(10deg);
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  
+  
+.row {
+    width: 1200px;
+    margin: 8px 16px;
+    position: absolute;
+    top: 21cm;
+    left: -5cm;
+
+  }
+  
+
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  
+  .column {
+    position: relative;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    left: 50px;
+    margin: 30px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .content {
+    
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .pic{
+    transition: all 1s ease-out;
+  }
+  .pic:hover{
+    transform:scale(1.2,1.2);
+  }
