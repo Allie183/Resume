@@ -13,7 +13,8 @@
 .box{
     box-sizing: border-box;
     width: 100%;
-    margin: 20px 0;
+    position: relative;
+    top: 10%;
     transition: all.8s ease-out;
 }
 
@@ -37,6 +38,7 @@
     border: 3px solid seashell;
     border-radius: 10px;
 }
+
 .skill-level{
     background: rgb(110, 57, 32);
     border-radius: 10px;
@@ -44,6 +46,9 @@
     height: 10px;
 }
 .title{
+    position: absolute;
+    top:215px;
+    left: -15%;
     font-size: 30px;
     padding: 10px;
     border: 5px solid seashell;
@@ -55,4 +60,5 @@
 }
 .title:hover{
     color: white;
+    transform: rotate(10deg);
 }

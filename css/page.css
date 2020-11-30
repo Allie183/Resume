@@ -47,7 +47,7 @@
     text-align: left;
 	font-size: 15px;
 	position: relative;
-    
+    top: -2%;
     left: 33%;
 	color: antiquewhite;
 	font-weight: bold;
@@ -56,25 +56,42 @@
     text-align: left;
 	font-size: 20px;
 	position: relative;
-    
+    top: 3%;
     left: 32%;
 	color: sienna;
 	font-weight: bold;
+}
+.bpic{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -32px;
+	display: block;
+	margin: auto;
+    
 }
 .add{
     text-align: left;
 	font-size: 20px;
 	position: relative;
-    
-    left: 30%;
+    top: 5%;
+    left: 31%;
 	color: sienna;
 	font-weight: bold;
+}
+.addpic{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -20px;
+	display: block;
+	margin: auto;
 }
 .level{
     text-align: left;
 	font-size: 20px;
 	position: relative;
-    top: 5%;
+    top: 6%;
     left: 28%;
 	color:black;
 	font-weight: bold;
@@ -123,6 +140,7 @@
 }
 .title2:hover{
     color: white;
+    transform: rotate(10deg);
 }
 .c{
     position: absolute;
@@ -132,5 +150,129 @@
     width: 75%;
     border-radius: 20px;
     float: left;
-    transition: all.8s ease-out;
+    transition: .8s ease-out;
+}
+.container {
+    position:absolute;
+    width: 40%;
+    top: 835%;
+    left: 45%;
+    margin: 10px;
+    
+}
+  
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+  
+.container:hover .overlay{
+    opacity: 1;
+  }
+  
+.text{
+    padding: 30px;
+    color: sienna;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.container1 {
+    position:absolute;
+    width: 30%;
+    top: 1445%;
+    left: 75%;
+    margin: 10px;
+    
+}
+  
+.image1{
+    display: block;
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+  
+.overlay1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 330px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+  
+.container1:hover .overlay1{
+    opacity: 1;
+  }
+  
+.text1{
+    padding: 30px;
+    color: sienna;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.hr{
+    size: 10px;
+    width: 60%;
+    position: absolute;
+    top: 1410%;
+    left: 50%;
+}
+
+.arrow{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+    transition: all 1s ease-out;
+}
+.arrow:hover{
+    transform:scale(1.2,1.2);
+
+}
+
+.arrow2{
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: -85%;
+    transition: all 1s ease-out;
+}
+.arrow2:hover{
+    transform:scale(1.2,1.2);
+
 }
