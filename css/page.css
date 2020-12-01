@@ -374,3 +374,31 @@ body{
   .pic:hover{
     transform:scale(1.2,1.2);
   }
+  .p1{
+    text-align: left;
+	font-size: 20px;
+	position: relative;
+    top: 3%;
+    
+	color: sienna;
+	font-weight: bold;
+}
+.p2{
+    text-align: left;
+	font-size: 20px;
+	position: relative;
+    top: 3%;
+    
+	color: sienna;
+	font-weight: bold;
+}
+.p3{
+    text-align: left;
+	font-size: 20px;
+	position: relative;
+    top: 3%;
+    
+	color: sienna;
+	font-weight: bold;
+}
+  

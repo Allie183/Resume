@@ -39,12 +39,78 @@
     border-radius: 10px;
 }
 
-.skill-level{
+.skill-level1{
     background: rgb(110, 57, 32);
     border-radius: 10px;
-    width: 100%;
     height: 10px;
+    animation-name: skill70;
+	animation-duration: 3s;
+    width: 70%;
+    
+	
 }
+.skill-level2{
+    background: rgb(110, 57, 32);
+    border-radius: 10px;
+    height: 10px;
+    animation-name: skill70;
+	animation-duration: 3s;
+	width: 70%;
+	
+}
+.skill-level3{
+    background: rgb(110, 57, 32);
+    border-radius: 10px;
+    height: 10px;
+    animation-name: skill85;
+	animation-duration: 3s;
+	width: 70%;
+	
+}
+.skill-level4{
+    background: rgb(110, 57, 32);
+    border-radius: 10px;
+    height: 10px;
+    animation-name: skill80;
+	animation-duration: 3s;
+	width: 70%;
+	
+}
+.skill-level5{
+    background: rgb(110, 57, 32);
+    border-radius: 10px;
+    height: 10px;
+    animation-name: skill90;
+	animation-duration: 3s;
+	width: 70%;
+	
+}
+.skill-level6{
+    background: rgb(110, 57, 32);
+    border-radius: 10px;
+    height: 10px;
+    animation-name: skill70;
+	animation-duration: 3s;
+	width: 70%;
+	
+}
+@keyframes skill70 {
+	0% {width: 0%}
+	100% {width: 70%}
+}
+@keyframes skill80 {
+	0% {width: 0%}
+	100% {width: 80%}
+}
+@keyframes skill85 {
+	0% {width: 0%}
+	100% {width: 85%}
+}
+@keyframes skill90 {
+	0% {width: 0%}
+	100% {width: 90%}
+}
+
 .title{
     position: absolute;
     top:215px;
