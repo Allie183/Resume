@@ -10,7 +10,7 @@ body{
     top: 3%;
     bottom: 65%;
     width: 75%;
-    background-color: rgba(214, 169, 118, 0.8);
+    background-color: rgb(214, 169, 118, 0.8);
     border-radius: 20px;
     float: left;
 }
@@ -401,4 +401,132 @@ body{
 	color: sienna;
 	font-weight: bold;
 }
+.title4{
+    position: absolute;
+    top:1500px;
+    left: -15%%;
+    font-size: 30px;
+    padding: 10px;
+    border: 5px solid seashell;
+    border-style: dashed;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: rgb(110, 57, 32);
+    transition: all .5s ease-out;
+}
+.title4:hover{
+    color: white;
+    transform: rotate(10deg);
+}
+.time{
+    padding-left: 30px;
+    transition: all .5s ease-out;
+    transform:scale(1,1);
+}
+.time:hover{
+    color: rgb(110, 57, 32);
+    transform:scale(1.1,1.1);
+}
+.times {
+    padding: 10px 30px;
+    position: relative;
+    width: 90%;
+    height: 80px;
+    
+  }
+.times::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -4px;
+    background-color:white; 
+    border: 4px solid sienna;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  h3{
+    font-weight: bold;
+}
+.timeline {
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 10px;
+    left: 10px;
+    margin-left: -3px;
+  }
+.title5{
+    position: absolute;
+    top:1520px;
+    left: 50%;
+    font-size: 30px;
+    padding: 10px;
+    border: 5px solid seashell;
+    border-style: dashed;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    color: rgb(110, 57, 32);
+    transition: all .5s ease-out;
+}
+.title5:hover{
+    color: white;
+    transform: rotate(10deg);
+}
+.timelines {
+    position: absolute;
+    top: 1630px;
+    left: 800px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+.timelines::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 10px;
+    left: 10px;
+    margin-left: -3px;
+  }
+.timess {
+    padding: 10px 30px;
+    position: relative;
+    width: 90%;
+    height: 80px;
+    
+  }
+.timess::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -4px;
+    background-color:white; 
+    border: 4px solid sienna;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+.tim{
+    padding-left: 30px;
+    transition: all .5s ease-out;
+    transform:scale(1,1);
+}
+.tim:hover{
+    color: rgb(110, 57, 32);
+    transform:scale(1.1,1.1);
+}
+
   
